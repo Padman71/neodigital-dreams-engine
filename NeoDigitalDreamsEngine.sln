@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NDDEditor", "NDDEditor\NDDEditor.shproj", "{910F626E-5250-4BD1-B4B1-5FEED89C6448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDDEditor.Desktop", "NDDEditor.Desktop\NDDEditor.Desktop.csproj", "{28EDF94F-B14C-4C19-A02A-708296ADB09A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoDigitalDreamsEngine", "NeoDigitalDreamsEngine\NeoDigitalDreamsEngine.csproj", "{77DFAF4B-26EA-4651-9418-A3A347DAEB0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGame", "TestGame\TestGame.csproj", "{3F410277-BB78-4A0C-8974-3370F67BCBF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl", "Eto.Gl\Eto.Gl.csproj", "{510CE98D-2169-48A0-889C-E743417EE5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl.Gtk", "Eto.Gl.Gtk\Eto.Gl.Gtk.csproj", "{06F7AC59-0E70-4646-BBFA-C105D9664FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl.Windows", "Eto.Gl.Windows\Eto.Gl.Windows.csproj", "{A0DCCC13-936C-4D5A-AD8C-ADFF75816A8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F7AC59-0E70-4646-BBFA-C105D9664FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F7AC59-0E70-4646-BBFA-C105D9664FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F7AC59-0E70-4646-BBFA-C105D9664FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F7AC59-0E70-4646-BBFA-C105D9664FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EDF94F-B14C-4C19-A02A-708296ADB09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EDF94F-B14C-4C19-A02A-708296ADB09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EDF94F-B14C-4C19-A02A-708296ADB09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EDF94F-B14C-4C19-A02A-708296ADB09A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F410277-BB78-4A0C-8974-3370F67BCBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F410277-BB78-4A0C-8974-3370F67BCBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F410277-BB78-4A0C-8974-3370F67BCBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F410277-BB78-4A0C-8974-3370F67BCBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510CE98D-2169-48A0-889C-E743417EE5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510CE98D-2169-48A0-889C-E743417EE5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510CE98D-2169-48A0-889C-E743417EE5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510CE98D-2169-48A0-889C-E743417EE5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DFAF4B-26EA-4651-9418-A3A347DAEB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DFAF4B-26EA-4651-9418-A3A347DAEB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DFAF4B-26EA-4651-9418-A3A347DAEB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DFAF4B-26EA-4651-9418-A3A347DAEB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DCCC13-936C-4D5A-AD8C-ADFF75816A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DCCC13-936C-4D5A-AD8C-ADFF75816A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DCCC13-936C-4D5A-AD8C-ADFF75816A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DCCC13-936C-4D5A-AD8C-ADFF75816A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+		version = 1.1 alpha
+	EndGlobalSection
+EndGlobal
